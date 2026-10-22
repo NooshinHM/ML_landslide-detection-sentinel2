@@ -1,0 +1,6 @@
+﻿Outer fold,Pixels per patch,C,Class weight,Calibration,Threshold,Fitting patches,Calibration patches,Intercept,Solver iterations
+1,512,0.1,None,Uncalibrated,0.1,2431,0,-6.313080310821533,49
+2,512,0.1,None,Uncalibrated,0.1,2431,0,-6.318549633026123,57
+3,512,0.1,None,Sigmoid,0.09,1944,487,-6.253392219543457,56
+4,512,0.1,None,Uncalibrated,0.09,2431,0,-6.226347923278809,54
+5,1024,0.1,None,Uncalibrated,0.1,2432,0,-6.321502208709717,55

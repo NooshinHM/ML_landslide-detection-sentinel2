@@ -1,0 +1,80 @@
+PROJECT HANDOFF — RANDOM FOREST COMPLETED
+
+Project:
+Landslide4Sense pixel classification, not future forecasting.
+Images: 128 x 128 x 14. Labels: 0 non-landslide, 1 landslide.
+Features: B1–B12, Slope, Elevation.
+Terrain inputs are scaled; do not assign physical units.
+3,039 development images; 760 secondary-test images.
+Primary metric: F2, beta=2. No specificity constraint.
+Random state: 43.
+Keep complete images separate between training and evaluation.
+
+RF completed:
+Five outer folds with three inner folds.
+Staged selection: eight initial candidates, tree count,
+training sample size, calibration method and threshold.
+Selected: candidate 8, 200 trees, depth 20, leaf size 1,
+minimum split size 10, max_features=0.5, entropy,
+bootstrap=True, max_samples=0.5, class_weight=None.
+1,024 uniformly sampled training pixels per image.
+No additional calibration. Locked threshold: 0.17.
+Final fitting: all 3,039 development images, 3,111,936 pixels.
+
+Results:
+Pooled outer F2: 0.776136.
+Secondary-test F2: 0.766812.
+Test precision: 0.534976; recall: 0.859982.
+Test specificity: 0.983721; IoU: 0.492112.
+Test ROC-AUC: 0.989888; AP: 0.780145.
+Brier: 0.008786; log loss: 0.032129.
+Test F2 image-bootstrap CI: 0.746788–0.787047.
+Bootstrap intervals condition on fitted models and exclude
+retraining uncertainty and between-image dependence.
+
+Diagnostics completed:
+ROC/PR, confusion matrices, whole-image bootstrap,
+outer and test calibration, coverage groups,
+negative-image false positives, learning diagnostic,
+impurity importance and whole-channel permutation.
+Ten final consistency checks passed.
+
+Spatial examples — keep these exact IDs and order:
+105, 2684, 3459, 1535, 590, 3316.
+Display each classifier separately.
+Compare classifiers after completing the planned methods.
+RGB: B4/B3/B2, per-channel 2nd–98th percentile stretching.
+Maintain consistent image orientation, scales and color meanings.
+
+Interpretation:
+High recall with substantial false positives.
+Small-coverage images remain difficult.
+Importance is diagnostic, not causal.
+Test results are secondary because this holdout was previously
+inspected for other methods. Do not tune on test results.
+Geographic generalization remains unverified.
+
+Next:
+HistGradientBoostingClassifier.
+Set a compact search budget before computation.
+Reuse original development/test IDs and saved image-level splits.
+Reuse saved training samples; verify their IDs and shape first.
+Do not use a random pixel-level validation split for early stopping.
+Measure fitting and full-image prediction time before estimating runtime.
+XGBoost is optional depending on measured time and report deadline.
+
+Files:
+rf_handoff_state.joblib contains settings, metrics, final splits
+and paths to the existing artifacts.
+paths.json lists the original artifact locations.
+Large arrays and models remain in their original folders.
+Keep those folders; this handoff is not a self-contained backup.
+Notebook helper functions are not serialized.
+Save the RF notebook with its code and outputs.
+
+Communication:
+Complete runnable cells, step by step.
+Interpret actual outputs only after receiving them.
+Short English Result paragraphs.
+Clear Persian explanations.
+Preserve existing results and avoid unnecessary reruns.

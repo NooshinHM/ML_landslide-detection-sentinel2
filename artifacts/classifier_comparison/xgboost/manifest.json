@@ -1,0 +1,19 @@
+{
+  "model": "XGBoost",
+  "threshold": 0.14,
+  "outer_split_source": "C:\\Users\\hadid\\Ramen\\ds-ml-project-template\\artifacts\\landslide_handoff_20261018_051428_848638\\project_state.joblib",
+  "final_inner_split_source": "C:\\Users\\hadid\\Ramen\\ds-ml-project-template\\artifacts\\random_forest\\checkpoints\\final_development_selection\\validated_splits.joblib",
+  "outer_scores_path": "C:\\Users\\hadid\\Ramen\\ds-ml-project-template\\artifacts\\xgboost\\checkpoints\\pooled_outer_v1\\scores.npy",
+  "test_scores_path": "C:\\Users\\hadid\\Ramen\\ds-ml-project-template\\artifacts\\xgboost\\checkpoints\\final_model_v1\\secondary_test_v1\\scores.npy",
+  "final_model_path": "C:\\Users\\hadid\\Ramen\\ds-ml-project-template\\artifacts\\xgboost\\checkpoints\\final_model_v1\\model.joblib",
+  "files": [
+    "xgb_candidates.csv",
+    "xgb_channel_importance.csv",
+    "xgb_nested_candidates.csv",
+    "xgb_outer_folds.csv",
+    "xgb_outer_per_image.csv",
+    "xgb_summary.csv",
+    "xgb_test_per_image.csv",
+    "xgb_comparison_bundle.joblib"
+  ]
+}

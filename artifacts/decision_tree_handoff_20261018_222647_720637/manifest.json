@@ -1,0 +1,128 @@
+{
+  "created_at": "20261018_222647_720637",
+  "groups": {
+    "project_context": {
+      "filename": "project_context.joblib",
+      "objects": [
+        "dev_ids",
+        "test_ids",
+        "nested_splits",
+        "FEATURE_NAMES",
+        "RANDOM_STATE",
+        "BETA",
+        "THRESHOLDS",
+        "CALIBRATION_FRACTION",
+        "PLATT_C",
+        "PROJECT_DIR",
+        "DATA_DIR",
+        "HANDOFF_DIR",
+        "STATE_PATH",
+        "ARRAYS_DIR",
+        "DT_CHECKPOINT_DIR",
+        "DT_PIPELINE_CHECKPOINT_DIR",
+        "DT_FINAL_SELECTION_DIR",
+        "DT_FINAL_PIPELINE_DIR",
+        "dt_search_signature",
+        "dt_final_pipeline_signature",
+        "dt_final_fit_signature",
+        "dt_holdout_evaluation_signature"
+      ],
+      "size_MB": 0.11
+    },
+    "model_selection": {
+      "filename": "model_selection.joblib",
+      "objects": [
+        "dt_candidates",
+        "dt_candidate_table",
+        "dt_search_results_by_outer",
+        "dt_refinement_results_by_outer",
+        "dt_calibration_splits_by_outer",
+        "dt_pipeline_results_by_outer",
+        "dt_locked_settings_by_outer",
+        "dt_final_inner_splits",
+        "dt_final_initial_search",
+        "dt_final_refinement_candidates",
+        "dt_final_refinement_changes",
+        "dt_final_refinement_result",
+        "dt_final_calibration_splits",
+        "dt_final_pipeline_result",
+        "dt_final_locked_specification"
+      ],
+      "size_MB": 0.78
+    },
+    "outer_models_and_predictions": {
+      "filename": "outer_models_and_predictions.joblib",
+      "objects": [
+        "dt_fitted_bundles_by_outer",
+        "dt_outer_evaluations",
+        "dt_oof_patch_counts",
+        "dt_outer_metrics_table",
+        "dt_outer_mean_sd",
+        "dt_pooled_oof_metrics",
+        "dt_pooled_counts",
+        "dt_pooled_probability_score_counts",
+        "dt_oof_metric_comparison"
+      ],
+      "size_MB": 14.72
+    },
+    "diagnostics": {
+      "filename": "diagnostics.joblib",
+      "objects": [
+        "dt_oof_reliability_table",
+        "dt_coverage_patch_records",
+        "dt_coverage_summary",
+        "dt_negative_patch_records",
+        "dt_negative_patch_summary",
+        "dt_spatial_example_table",
+        "dt_impurity_importance_by_fold",
+        "dt_impurity_importance_summary",
+        "dt_permutation_results_by_outer",
+        "dt_permutation_results",
+        "dt_permutation_fold_summary",
+        "dt_permutation_summary",
+        "dt_importance_rank_comparison"
+      ],
+      "size_MB": 0.14
+    },
+    "bootstrap_results": {
+      "filename": "bootstrap_results.joblib",
+      "objects": [
+        "dt_bootstrap_metric_names",
+        "dt_oof_bootstrap_samples",
+        "dt_oof_bootstrap_intervals",
+        "dt_holdout_bootstrap_samples",
+        "dt_holdout_bootstrap_intervals",
+        "dt_holdout_bootstrap_repeats",
+        "dt_holdout_bootstrap_seed"
+      ],
+      "size_MB": 0.27
+    },
+    "final_model_and_holdout": {
+      "filename": "final_model_and_holdout.joblib",
+      "objects": [
+        "dt_final_model_bundle",
+        "dt_final_holdout_evaluation",
+        "dt_fixed_holdout_ids",
+        "dt_holdout_spatial_records",
+        "dt_holdout_spatial_metrics",
+        "dt_final_performance_summary",
+        "dt_final_specification_table",
+        "dt_final_audit_table"
+      ],
+      "size_MB": 4.5
+    }
+  },
+  "optional_objects_not_found": {},
+  "tables": [
+    "performance_summary.csv",
+    "final_specification.csv",
+    "consistency_checks.csv",
+    "oof_bootstrap_intervals.csv",
+    "holdout_bootstrap_intervals.csv",
+    "holdout_per_image_results.csv",
+    "oof_per_image_results.csv",
+    "six_spatial_examples.csv"
+  ],
+  "numpy_version": "2.4.6",
+  "joblib_version": "1.5.3"
+}

@@ -1,0 +1,6 @@
+﻿Measure,Value
+Reference-negative patches,314.0
+Negative patches with at least one false-positive pixel,260.0
+Negative patches with any false positive (%),82.80254777070064
+Median false-positive area per negative patch (%),0.250244140625
+Pooled false-positive pixel area (%),2.4341753333996814

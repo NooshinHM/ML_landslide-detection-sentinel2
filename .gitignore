@@ -139,3 +139,25 @@ dmypy.json
 # nbdime Stuff
 .gitattributes
 
+
+# ------------------------------------------------------------------
+# Landslide project: keep large data and model checkpoints out of git
+# (GitHub rejects files > 100 MB; data ≈ 6.7 GB, checkpoints ≈ 18 GB)
+# ------------------------------------------------------------------
+# Raw Landslide4Sense data (download from Kaggle, see README_landslide_project.md)
+data/*
+!data/.gitkeep
+!data/artifacts/
+data/archive/
+data/archive.zip
+*.h5
+
+# Model checkpoints, scores and arrays (recreated by the notebooks)
+*.joblib
+*.npy
+*.npz
+*.pkl
+*.parquet
+
+# Office temp files
+~$*

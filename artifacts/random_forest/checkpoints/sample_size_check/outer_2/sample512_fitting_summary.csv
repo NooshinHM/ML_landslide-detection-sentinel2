@@ -1,0 +1,4 @@
+Outer_fold,Inner_split,Source_candidate,Samples_per_image,Trees,Original_fit_seconds,Status
+2,1,8,512,200,126.52094199997373,New model fitted
+2,2,8,512,200,124.75717309996253,New model fitted
+2,3,8,512,200,128.5623701000004,New model fitted

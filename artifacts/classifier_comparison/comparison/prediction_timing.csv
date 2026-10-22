@@ -1,0 +1,7 @@
+Model,Prediction_route,Reproduces_saved_scores,Max_score_difference,Seconds_per_million_pixels,Estimated_seconds_full_test
+LR,calibrator(decision_function),True,0.0,0.0848685302745622,1.0567693600140047
+LR + interactions,predict_proba,True,0.0,0.6852030029325107,8.532038160035153
+Decision tree,predict_proba,True,2.978857949198499e-08,0.046889221190227204,0.5838570799853187
+Random forest,predict_proba,True,2.980128843699248e-08,4.688308593752133,58.378068480026556
+HGB,predict_proba,True,2.9802037060377984e-08,6.524658508300085,81.24400379999133
+XGBoost,predict_proba,True,0.0,1.848942810056542,23.02274003997445

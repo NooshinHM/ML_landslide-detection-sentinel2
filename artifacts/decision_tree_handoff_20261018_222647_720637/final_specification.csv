@@ -1,0 +1,9 @@
+﻿,Setting,Value
+0,Development images,3039
+1,Secondary holdout images,760
+2,Sampled training pixels per image,1024
+3,Probability method,Uncalibrated — all training patches
+4,Locked threshold,0.92
+5,Final fitted tree depth,15
+6,Final fitted leaf count,3032
+7,Primary metric,F2

@@ -1,0 +1,4 @@
+Inner_fold,Training_images,Fit_images,Calibration_images,Validation_images,Disjoint_groups,No_test_images
+1,2026,1620,406,1013,True,True
+2,2026,1620,406,1013,True,True
+3,2026,1620,406,1013,True,True

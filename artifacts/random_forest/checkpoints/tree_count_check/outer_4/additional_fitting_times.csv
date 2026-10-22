@@ -1,0 +1,7 @@
+Outer_fold,Inner_split,Trees,Additional_fit_seconds,Status
+4,1,50,0.0,Derived first 50 trees
+4,1,200,147.32250300003216,Extended to 200 trees
+4,2,50,0.0,Derived first 50 trees
+4,2,200,139.81015450000996,Extended to 200 trees
+4,3,50,0.0,Derived first 50 trees
+4,3,200,145.26311419997364,Extended to 200 trees

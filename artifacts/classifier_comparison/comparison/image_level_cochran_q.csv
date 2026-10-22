@@ -1,0 +1,5 @@
+Stage,Outcome,Images,Cochran_Q,p_value
+Outer,Landslide image detected (>= 50% of its landslide pixels),1785,483.48948374760994,2.922024698360409e-102
+Outer,Negative image free of false alarms (0 FP pixels),1254,527.0023837902264,1.1827527332170504e-111
+Test,Landslide image detected (>= 50% of its landslide pixels),446,130.16695957820738,2.1935327786425208e-26
+Test,Negative image free of false alarms (0 FP pixels),314,135.80745341614906,1.3917082357298813e-27

@@ -1,0 +1,17 @@
+﻿Metric,Final-test value
+TN,"11,837,688"
+FP,"348,771"
+FN,"68,843"
+TP,"196,538"
+Precision,0.360416
+Recall,0.740588
+Specificity,0.971380
+F1,0.484866
+F2,0.611569
+IoU,0.320015
+Balanced accuracy,0.855984
+Accuracy,0.966462
+Brier score,0.014044
+Log loss,0.053596
+ROC AUC,0.962889
+Average precision,0.504147

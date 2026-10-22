@@ -1,0 +1,91 @@
+LANDSLIDE4SENSE — DECISION TREE HANDOFF
+
+Export directory:
+C:\Users\hadid\Ramen\ds-ml-project-template\artifacts\decision_tree_handoff_20261018_222647_720637
+
+PROJECT
+- Pixel classification: 0 = non-landslide, 1 = landslide.
+- Features: B1–B12, Slope, Elevation.
+- Images: 128 × 128 pixels with 14 input channels.
+- Primary metric: F2, beta = 2.
+- No specificity constraint.
+- Random seed: 43.
+- Keep all existing LR results and split definitions.
+- Terrain values are stored scaled; do not label them as degrees/metres.
+- This is landslide mapping, not forecasting.
+
+EVALUATION
+- Development images: 3039.
+- Secondary holdout images: 760.
+- Nested CV: five outer folds and three inner folds.
+- Patches remain intact across splits.
+- Training uses sampled pixels; evaluation uses all pixels.
+- Final development search completed before holdout evaluation.
+- Holdout was previously examined for LR; report as secondary/exploratory.
+- Saved LR holdout labels follow numeric image-ID order.
+- Final DT holdout label alignment was verified.
+- Do not retune using outer-fold or holdout diagnostics.
+
+FINAL MODEL
+- Parameters:
+  {'min_samples_split': 2, 'min_samples_leaf': 5, 'max_depth': 15, 'criterion': 'entropy', 'class_weight': 'balanced', 'ccp_alpha': 1e-05, 'random_state': 43}
+- Training samples per image: 1024.
+- Probability method: uncalibrated.
+- Locked threshold: 0.92.
+- Final depth: 15.
+- Final leaves: 3032.
+- Raw scores must not be interpreted as calibrated probabilities.
+
+MAIN RESULTS
+- Mean outer-fold F2: 0.737458.
+- Outer-fold F2 SD: 0.016114; descriptive, not a confidence interval.
+- Pooled OOF F2: 0.737575.
+- Secondary holdout F2: 0.722791.
+- Holdout precision: 0.528889.
+- Holdout recall: 0.795724.
+- Holdout IoU: 0.465663.
+- Holdout ROC-AUC: 0.959770.
+- Holdout average precision: 0.696749.
+- Holdout F2 95% bootstrap CI: 0.700831–0.745124.
+- Bootstrap: 2000 whole-image resamples; fitted models held fixed.
+- Intervals exclude training/selection uncertainty and do not account
+  for possible dependence between neighboring images.
+
+COMPLETED ANALYSES
+- Initial randomized hyperparameter search and local refinement.
+- Training sample-size comparison.
+- Uncalibrated, sigmoid and isotonic alternatives.
+- Inner-fold threshold selection.
+- Five outer-fold evaluations and pooled OOF assessment.
+- Learning-curve analysis.
+- Training versus evaluation performance.
+- ROC, precision–recall and confusion matrices.
+- Reliability and probability-score diagnostics.
+- Landslide-coverage groups and negative-image false positives.
+- OOF spatial examples.
+- Impurity and channel-permutation feature importance.
+- Final selection on development data and final model fit.
+- Secondary holdout evaluation and whole-image bootstrap intervals.
+- Same six holdout images inspected for LR:
+  105, 2684, 3459, 1535, 590, 3316.
+- Final consistency audit: all eight checks passed.
+
+NEXT
+- Keep per-image results for paired classifier comparisons.
+- Formal hypothesis tests are deferred until all classifiers finish.
+- Do not claim DT superiority over LR from the six spatial examples.
+- Confirm the next classifier before starting it.
+
+RESTORATION NOTES
+- The joblib files contain data and standard fitted sklearn models.
+- Notebook helper functions are not serialized.
+- Save the existing notebook to preserve helper code and all figures.
+- Original project data and the previous LR handoff remain necessary
+  for workflows using those source files.
+- Use compatible Python, NumPy and scikit-learn environments.
+
+COMMUNICATION
+- Explain in Persian, with English technical labels where useful.
+- Work step by step in the existing notebook.
+- Inspect actual outputs before writing result interpretations.
+- Explain rationale, actual results and whether graphs add value.

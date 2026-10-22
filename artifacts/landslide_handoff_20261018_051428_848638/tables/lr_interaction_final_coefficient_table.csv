@@ -1,0 +1,106 @@
+﻿Feature,Coefficient,Term type,Display label,Absolute coefficient
+B1,1.3374764,Original input,B1,1.3374764
+B2,-1.0473003,Original input,B2,1.0473003
+B3,0.7335707,Original input,B3,0.7335707
+B4,0.9373701,Original input,B4,0.9373701
+B5,2.0074496,Original input,B5,2.0074496
+B6,-0.29665157,Original input,B6,0.29665157
+B7,-1.9847987,Original input,B7,1.9847987
+B8,-0.82211614,Original input,B8,0.82211614
+B9,-0.65555876,Original input,B9,0.65555876
+B10,-1.106419,Original input,B10,1.106419
+B11,-0.6239625,Original input,B11,0.6239625
+B12,0.7712151,Original input,B12,0.7712151
+Slope,0.27642718,Original input,Slope,0.27642718
+Elevation,1.3853898,Original input,Elevation,1.3853898
+B1 B2,-1.0604813,Pairwise interaction,B1 × B2,1.0604813
+B1 B3,-0.04524422,Pairwise interaction,B1 × B3,0.04524422
+B1 B4,1.1615433,Pairwise interaction,B1 × B4,1.1615433
+B1 B5,-1.3026258,Pairwise interaction,B1 × B5,1.3026258
+B1 B6,-0.060513373,Pairwise interaction,B1 × B6,0.060513373
+B1 B7,-0.08418437,Pairwise interaction,B1 × B7,0.08418437
+B1 B8,0.057853017,Pairwise interaction,B1 × B8,0.057853017
+B1 B9,0.1830144,Pairwise interaction,B1 × B9,0.1830144
+B1 B10,-0.027802978,Pairwise interaction,B1 × B10,0.027802978
+B1 B11,0.4642481,Pairwise interaction,B1 × B11,0.4642481
+B1 B12,-0.2649968,Pairwise interaction,B1 × B12,0.2649968
+B1 Slope,0.24845389,Pairwise interaction,B1 × Slope,0.24845389
+B1 Elevation,0.11298622,Pairwise interaction,B1 × Elevation,0.11298622
+B2 B3,-0.26016164,Pairwise interaction,B2 × B3,0.26016164
+B2 B4,0.5895627,Pairwise interaction,B2 × B4,0.5895627
+B2 B5,0.9954159,Pairwise interaction,B2 × B5,0.9954159
+B2 B6,0.4861648,Pairwise interaction,B2 × B6,0.4861648
+B2 B7,0.24067357,Pairwise interaction,B2 × B7,0.24067357
+B2 B8,-0.014864036,Pairwise interaction,B2 × B8,0.014864036
+B2 B9,-0.49676517,Pairwise interaction,B2 × B9,0.49676517
+B2 B10,-0.18121602,Pairwise interaction,B2 × B10,0.18121602
+B2 B11,-0.07217427,Pairwise interaction,B2 × B11,0.07217427
+B2 B12,-0.5646191,Pairwise interaction,B2 × B12,0.5646191
+B2 Slope,-0.358406,Pairwise interaction,B2 × Slope,0.358406
+B2 Elevation,0.5839122,Pairwise interaction,B2 × Elevation,0.5839122
+B3 B4,-0.46110672,Pairwise interaction,B3 × B4,0.46110672
+B3 B5,-0.12497755,Pairwise interaction,B3 × B5,0.12497755
+B3 B6,0.024206571,Pairwise interaction,B3 × B6,0.024206571
+B3 B7,0.030435175,Pairwise interaction,B3 × B7,0.030435175
+B3 B8,0.43321964,Pairwise interaction,B3 × B8,0.43321964
+B3 B9,-0.9201793,Pairwise interaction,B3 × B9,0.9201793
+B3 B10,-0.18394072,Pairwise interaction,B3 × B10,0.18394072
+B3 B11,0.3190929,Pairwise interaction,B3 × B11,0.3190929
+B3 B12,0.13022795,Pairwise interaction,B3 × B12,0.13022795
+B3 Slope,-0.06154157,Pairwise interaction,B3 × Slope,0.06154157
+B3 Elevation,1.7474147,Pairwise interaction,B3 × Elevation,1.7474147
+B4 B5,-1.5177671,Pairwise interaction,B4 × B5,1.5177671
+B4 B6,0.113297425,Pairwise interaction,B4 × B6,0.113297425
+B4 B7,-0.45424423,Pairwise interaction,B4 × B7,0.45424423
+B4 B8,-0.33387452,Pairwise interaction,B4 × B8,0.33387452
+B4 B9,1.416604,Pairwise interaction,B4 × B9,1.416604
+B4 B10,0.5865608,Pairwise interaction,B4 × B10,0.5865608
+B4 B11,0.16872841,Pairwise interaction,B4 × B11,0.16872841
+B4 B12,0.04885536,Pairwise interaction,B4 × B12,0.04885536
+B4 Slope,0.5038512,Pairwise interaction,B4 × Slope,0.5038512
+B4 Elevation,-2.1684182,Pairwise interaction,B4 × Elevation,2.1684182
+B5 B6,-0.17814161,Pairwise interaction,B5 × B6,0.17814161
+B5 B7,0.2017709,Pairwise interaction,B5 × B7,0.2017709
+B5 B8,0.63923615,Pairwise interaction,B5 × B8,0.63923615
+B5 B9,-0.08041411,Pairwise interaction,B5 × B9,0.08041411
+B5 B10,-0.28879786,Pairwise interaction,B5 × B10,0.28879786
+B5 B11,-0.43682775,Pairwise interaction,B5 × B11,0.43682775
+B5 B12,0.91168433,Pairwise interaction,B5 × B12,0.91168433
+B5 Slope,0.05929258,Pairwise interaction,B5 × Slope,0.05929258
+B5 Elevation,-0.24767476,Pairwise interaction,B5 × Elevation,0.24767476
+B6 B7,-0.48016644,Pairwise interaction,B6 × B7,0.48016644
+B6 B8,-0.5259591,Pairwise interaction,B6 × B8,0.5259591
+B6 B9,-0.608973,Pairwise interaction,B6 × B9,0.608973
+B6 B10,0.5887497,Pairwise interaction,B6 × B10,0.5887497
+B6 B11,-0.39325076,Pairwise interaction,B6 × B11,0.39325076
+B6 B12,0.15858144,Pairwise interaction,B6 × B12,0.15858144
+B6 Slope,0.3368187,Pairwise interaction,B6 × Slope,0.3368187
+B6 Elevation,0.0152912205,Pairwise interaction,B6 × Elevation,0.0152912205
+B7 B8,0.46131992,Pairwise interaction,B7 × B8,0.46131992
+B7 B9,0.5545918,Pairwise interaction,B7 × B9,0.5545918
+B7 B10,-0.2609879,Pairwise interaction,B7 × B10,0.2609879
+B7 B11,0.18868509,Pairwise interaction,B7 × B11,0.18868509
+B7 B12,0.31175372,Pairwise interaction,B7 × B12,0.31175372
+B7 Slope,0.32470855,Pairwise interaction,B7 × Slope,0.32470855
+B7 Elevation,-0.22273569,Pairwise interaction,B7 × Elevation,0.22273569
+B8 B9,-0.35757983,Pairwise interaction,B8 × B9,0.35757983
+B8 B10,-0.15501663,Pairwise interaction,B8 × B10,0.15501663
+B8 B11,-0.29760957,Pairwise interaction,B8 × B11,0.29760957
+B8 B12,-0.09021293,Pairwise interaction,B8 × B12,0.09021293
+B8 Slope,-0.16796851,Pairwise interaction,B8 × Slope,0.16796851
+B8 Elevation,0.12402818,Pairwise interaction,B8 × Elevation,0.12402818
+B9 B10,0.44037426,Pairwise interaction,B9 × B10,0.44037426
+B9 B11,0.3288797,Pairwise interaction,B9 × B11,0.3288797
+B9 B12,-0.21417592,Pairwise interaction,B9 × B12,0.21417592
+B9 Slope,0.16919672,Pairwise interaction,B9 × Slope,0.16919672
+B9 Elevation,-0.014151749,Pairwise interaction,B9 × Elevation,0.014151749
+B10 B11,-0.9073227,Pairwise interaction,B10 × B11,0.9073227
+B10 B12,0.7996122,Pairwise interaction,B10 × B12,0.7996122
+B10 Slope,-0.07755577,Pairwise interaction,B10 × Slope,0.07755577
+B10 Elevation,-0.07627336,Pairwise interaction,B10 × Elevation,0.07627336
+B11 B12,-0.72619206,Pairwise interaction,B11 × B12,0.72619206
+B11 Slope,-1.8456231,Pairwise interaction,B11 × Slope,1.8456231
+B11 Elevation,-0.3347182,Pairwise interaction,B11 × Elevation,0.3347182
+B12 Slope,1.2168167,Pairwise interaction,B12 × Slope,1.2168167
+B12 Elevation,0.42580903,Pairwise interaction,B12 × Elevation,0.42580903
+Slope Elevation,-0.3132536,Pairwise interaction,Slope × Elevation,0.3132536

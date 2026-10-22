@@ -1,0 +1,14 @@
+{
+  "model_registry": "C:\\Users\\hadid\\Ramen\\ds-ml-project-template\\artifacts\\random_forest\\checkpoints\\final_model_registry.joblib",
+  "final_model": "C:\\Users\\hadid\\Ramen\\ds-ml-project-template\\artifacts\\random_forest\\checkpoints\\final_model\\f7fd67bbaa0d795945632fa997ef7afbf7a4220cf914f1ede25543fbfb4f97d2\\fitted_model.joblib",
+  "locked_specification": "C:\\Users\\hadid\\Ramen\\ds-ml-project-template\\artifacts\\random_forest\\checkpoints\\final_model\\f7fd67bbaa0d795945632fa997ef7afbf7a4220cf914f1ede25543fbfb4f97d2\\locked_specification.json",
+  "test_evaluation": "C:\\Users\\hadid\\Ramen\\ds-ml-project-template\\artifacts\\random_forest\\checkpoints\\final_model\\f7fd67bbaa0d795945632fa997ef7afbf7a4220cf914f1ede25543fbfb4f97d2\\secondary_test\\81b374cc5253cd7adb5020be849083f3c21e62ded550bda481610af57fb8aed9\\evaluation.joblib",
+  "test_scores": "C:\\Users\\hadid\\Ramen\\ds-ml-project-template\\artifacts\\random_forest\\checkpoints\\final_model\\f7fd67bbaa0d795945632fa997ef7afbf7a4220cf914f1ede25543fbfb4f97d2\\secondary_test\\81b374cc5253cd7adb5020be849083f3c21e62ded550bda481610af57fb8aed9\\scores.npy",
+  "test_labels": "C:\\Users\\hadid\\Ramen\\ds-ml-project-template\\artifacts\\random_forest\\checkpoints\\final_model\\f7fd67bbaa0d795945632fa997ef7afbf7a4220cf914f1ede25543fbfb4f97d2\\secondary_test\\81b374cc5253cd7adb5020be849083f3c21e62ded550bda481610af57fb8aed9\\labels.npy",
+  "test_bootstrap": "C:\\Users\\hadid\\Ramen\\ds-ml-project-template\\artifacts\\random_forest\\checkpoints\\final_model\\f7fd67bbaa0d795945632fa997ef7afbf7a4220cf914f1ede25543fbfb4f97d2\\secondary_test\\81b374cc5253cd7adb5020be849083f3c21e62ded550bda481610af57fb8aed9\\whole_image_bootstrap.joblib",
+  "outer_summary": "C:\\Users\\hadid\\Ramen\\ds-ml-project-template\\artifacts\\random_forest\\checkpoints\\nested_cv_summary\\complete_oof_summary.joblib",
+  "validated_final_splits": "C:\\Users\\hadid\\Ramen\\ds-ml-project-template\\artifacts\\random_forest\\checkpoints\\final_development_selection\\validated_splits.joblib",
+  "final_selection_directory": "C:\\Users\\hadid\\Ramen\\ds-ml-project-template\\artifacts\\random_forest\\checkpoints\\final_development_selection",
+  "fixed_image_figures": "C:\\Users\\hadid\\Ramen\\ds-ml-project-template\\artifacts\\random_forest\\checkpoints\\final_model\\f7fd67bbaa0d795945632fa997ef7afbf7a4220cf914f1ede25543fbfb4f97d2\\secondary_test\\81b374cc5253cd7adb5020be849083f3c21e62ded550bda481610af57fb8aed9\\figures\\fixed_test_images",
+  "data_directory": "C:\\Users\\hadid\\Ramen\\ds-ml-project-template\\data\\archive"
+}

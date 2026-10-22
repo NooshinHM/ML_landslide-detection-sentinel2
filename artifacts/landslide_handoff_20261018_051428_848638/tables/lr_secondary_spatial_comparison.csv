@@ -1,0 +1,7 @@
+﻿Example set,sample_id,Coverage (%),Original TP,Interaction TP,Original FP,Interaction FP,Original FN,Interaction FN,Original IoU,Interaction IoU,IoU difference
+Previously selected diagnostic examples,105,5.60302734375,680,816,1064,737,238,102,0.343087790110999,0.4930513595166163,0.14996356940561734
+Previously selected diagnostic examples,2684,0.74462890625,0,11,107,208,122,111,0.0,0.03333333333333333,0.03333333333333333
+Previously selected diagnostic examples,3459,0.0,0,0,9507,2164,0,0,0.0,0.0,0.0
+Previously selected random examples,1535,6.060791015625,849,910,282,204,144,83,0.6658823529411765,0.7602339181286549,0.09435156518747845
+Previously selected random examples,590,9.429931640625,1087,1353,520,950,458,192,0.5263922518159806,0.5422845691382766,0.015892317322296012
+Previously selected random examples,3316,0.0,0,0,20,17,0,0,0.0,0.0,0.0

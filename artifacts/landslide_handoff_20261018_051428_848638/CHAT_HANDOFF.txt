@@ -1,0 +1,118 @@
+PROJECT HANDOFF — LANDSLIDE CLASSIFICATION
+
+Continue in the user's existing project, using a new notebook that
+the user creates. Do not recreate the dataset or overwrite LR results.
+
+Communication:
+Explain clearly in Persian, keep English technical terms readable,
+and provide English Markdown-ready Result paragraphs.
+Provide complete runnable cells, step by step.
+Plots need visible legends, labels, scales, and unclipped text.
+Report each classifier separately, followed by a shared comparison.
+
+Project:
+Classical supervised ML for Landslide4Sense pixel classification.
+No deep learning is required.
+Inputs: 14 channels: B1–B12, Slope, Elevation.
+Images: (128, 128, 14); binary masks: (128, 128).
+Stored terrain channels are scaled; do not label them directly as
+metres or degrees. No geographic coordinates are available.
+This is landslide mapping, not future landslide forecasting.
+
+Data directory:
+C:\Users\hadid\Ramen\ds-ml-project-template\data\archive
+
+Labeled source files:
+TrainData/img/image_ID.h5, dataset "img"
+TrainData/mask/mask_ID.h5, dataset "mask"
+
+Partitions:
+3,039 development patches; 760 labeled holdout patches.
+The supplied ValidData and TestData images lack reference masks.
+Reuse saved dev_ids, test_ids, and nested_splits.
+Never split pixels from the same patch across training and evaluation.
+Unknown geographic dependence remains a limitation.
+
+Training samples:
+X_patch_samples and y_patch_samples have 1,024 sampled pixels per patch.
+sampled_patch_ids identifies the patch axis.
+The first 512 pixels are the nested 512-pixel sample.
+Sampling was uniform, without class balancing.
+Validation and evaluation use all pixels in each evaluation patch.
+
+Evaluation:
+Primary metric: F2, beta=2.
+No specificity floor is imposed for this project.
+Five outer folds and three inner folds.
+Fit preprocessing only on fitting data.
+Hyperparameters are selected first; calibration and threshold selection
+then use inner validation with separate fitting/calibration patches.
+This is a staged procedure, not a joint Cartesian search over everything.
+Use patch bootstrap, not independent-pixel bootstrap.
+Do not treat five overlapping-training folds as independent experiments.
+Do not tune on holdout results.
+
+Completed method 1: original logistic regression.
+Final: StandardScaler + LR, C=0.1, no class weighting,
+512 pixels/patch, sigmoid calibration, threshold=0.10.
+Base fitting: 2,431 development patches.
+Calibration: 608 separate development patches.
+Initial holdout F2=0.611569, precision=0.360416,
+recall=0.740588, IoU=0.320015.
+Corrected log loss=0.053596; Brier=0.014044.
+An earlier written F2 of 0.61569 was a transcription error.
+The saved numeric result tables contain the correct values.
+
+Completed method 2: interaction logistic regression.
+Pipeline: input standardization -> PolynomialFeatures(
+degree=2, interaction_only=True, include_bias=False)
+-> expanded-column standardization -> LR.
+14 original terms plus 91 pairwise products = 105 predictors.
+Final: C=1, no class weighting, 512 pixels/patch,
+no extra calibration, threshold=0.11.
+Final fitting used all 3,039 development patches.
+Mean outer-fold F2=0.747495; pooled OOF F2=0.747800.
+Secondary holdout F2=0.743009, precision=0.511054,
+recall=0.838108, IoU=0.465137.
+Holdout ROC AUC=0.986106; AP=0.738121.
+Brier=0.009761; log loss=0.035182.
+Holdout F2 CI=[0.719378, 0.764317].
+Paired holdout F2 gain=0.131440,
+CI=[0.113429, 0.150583].
+
+Important:
+The interaction extension was developed after earlier results,
+including the initial holdout evaluation, had been inspected.
+Its later holdout results are SECONDARY/EXPLORATORY,
+not fresh independent confirmation.
+The original LR results must remain preserved.
+
+Completed analyses:
+Outer evaluation, patch-bootstrap intervals, paired differences,
+ROC/PR, reliability diagrams, descriptive binned ECE,
+coverage subgroups, negative-patch false alarms,
+and same-image spatial comparisons.
+ECE is bin-dependent and dominated by low-probability pixels.
+Coefficient magnitudes are not independent importance or causal effects.
+
+Fixed comparison images:
+Diagnostic: 105, 2684, 3459.
+Additional random examples: 1535, 590, 3316.
+Reuse these IDs for fair spatial comparison across methods.
+
+Saved files:
+project_state.joblib: variables and standard sklearn model objects.
+result_tables.joblib: named DataFrames.
+tables/: CSV copies.
+arrays/: sampled training arrays and cached holdout predictions.
+metadata.json: paths and package versions.
+
+Probability wrappers and notebook helper functions are not serialized.
+Restore/redefine metrics_from_counts, get_sampled_pixels,
+evaluate_full_patches_at_thresholds, and CalibratedProbabilityModel
+before subsequent modeling. The original saved notebook retains
+their exact code. Avoid assuming they exist in a new kernel.
+
+New classifier has not yet been started.
+Choose its search budget before running expensive computations.
+Fit each new classifier independently and preserve all LR results.

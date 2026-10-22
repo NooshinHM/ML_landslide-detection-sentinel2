@@ -1,0 +1,162 @@
+{
+  "created_at": "2026-10-18T05:14:29.934361",
+  "project_directory": "C:\\Users\\hadid\\Ramen\\ds-ml-project-template",
+  "data_directory": "C:\\Users\\hadid\\Ramen\\ds-ml-project-template\\data\\archive",
+  "export_directory": "C:\\Users\\hadid\\Ramen\\ds-ml-project-template\\artifacts\\landslide_handoff_20261018_051428_848638",
+  "python_version": "3.13.15",
+  "numpy_version": "2.4.6",
+  "pandas_version": "3.0.3",
+  "sklearn_version": "1.9.0",
+  "joblib_version": "1.5.3",
+  "arrays": {
+    "sampled_patch_ids": {
+      "file": "arrays/sampled_patch_ids.npy",
+      "shape": [
+        3039
+      ],
+      "dtype": "<U4",
+      "bytes": 48624
+    },
+    "X_patch_samples": {
+      "file": "arrays/X_patch_samples.npy",
+      "shape": [
+        3039,
+        1024,
+        14
+      ],
+      "dtype": "float32",
+      "bytes": 174268416
+    },
+    "y_patch_samples": {
+      "file": "arrays/y_patch_samples.npy",
+      "shape": [
+        3039,
+        1024
+      ],
+      "dtype": "uint8",
+      "bytes": 3111936
+    },
+    "lr_test_y": {
+      "file": "arrays/lr_test_y.npy",
+      "shape": [
+        12451840
+      ],
+      "dtype": "uint8",
+      "bytes": 12451840
+    },
+    "lr_test_probability": {
+      "file": "arrays/lr_test_probability.npy",
+      "shape": [
+        12451840
+      ],
+      "dtype": "float64",
+      "bytes": 99614720
+    },
+    "lr_interaction_secondary_test_probability": {
+      "file": "arrays/lr_interaction_secondary_test_probability.npy",
+      "shape": [
+        12451840
+      ],
+      "dtype": "float64",
+      "bytes": 99614720
+    }
+  },
+  "table_names": [
+    "audit_df",
+    "baseline_results",
+    "dev_manifest",
+    "lr_ablation_best",
+    "lr_ablation_results",
+    "lr_ablation_summary",
+    "lr_best_settings",
+    "lr_bootstrap_ci",
+    "lr_bootstrap_scores",
+    "lr_calibration_selection_across_outer",
+    "lr_coefficients",
+    "lr_coverage_analysis",
+    "lr_coverage_summary",
+    "lr_final_best_per_configuration",
+    "lr_final_calibration_best_per_method",
+    "lr_final_calibration_ranked",
+    "lr_final_calibration_results",
+    "lr_final_calibration_split_summary",
+    "lr_final_calibration_summary",
+    "lr_final_coefficient_table",
+    "lr_final_data_allocation",
+    "lr_final_fit_log",
+    "lr_final_ranked",
+    "lr_final_search_results",
+    "lr_final_search_summary",
+    "lr_final_sigmoid_parameters",
+    "lr_inner_results",
+    "lr_inner_runtime",
+    "lr_inner_summary",
+    "lr_interaction_best_per_representation",
+    "lr_interaction_comparison_results",
+    "lr_interaction_comparison_summary",
+    "lr_interaction_final_best_per_c",
+    "lr_interaction_final_calibration_allocation",
+    "lr_interaction_final_calibration_best_per_method",
+    "lr_interaction_final_calibration_ranked",
+    "lr_interaction_final_calibration_results",
+    "lr_interaction_final_calibration_summary",
+    "lr_interaction_final_coefficient_table",
+    "lr_interaction_final_fit_log",
+    "lr_interaction_final_search_ranked",
+    "lr_interaction_final_search_results",
+    "lr_interaction_final_search_summary",
+    "lr_interaction_fit_log",
+    "lr_interaction_fold1_calibration_best_per_method",
+    "lr_interaction_fold1_calibration_results",
+    "lr_interaction_fold1_calibration_splits",
+    "lr_interaction_fold1_calibration_summary",
+    "lr_interaction_fold1_outer_comparison",
+    "lr_interaction_fold1_patch_results",
+    "lr_interaction_oof_patch_results",
+    "lr_interaction_outer_comparison",
+    "lr_interaction_outer_summary",
+    "lr_interaction_paired_bootstrap_ci",
+    "lr_interaction_paired_bootstrap_scores",
+    "lr_interaction_paired_patch_table",
+    "lr_interaction_ranked",
+    "lr_interaction_secondary_test_comparison",
+    "lr_interaction_secondary_test_patch_results",
+    "lr_learning_results",
+    "lr_learning_summary",
+    "lr_oof_patch_results",
+    "lr_outer1_results",
+    "lr_outer_coefficients",
+    "lr_outer_refit_summary",
+    "lr_outer_scores",
+    "lr_secondary_coverage_comparison",
+    "lr_secondary_negative_comparison",
+    "lr_secondary_paired_bootstrap_ci",
+    "lr_secondary_paired_bootstrap_scores",
+    "lr_secondary_paired_patch_table",
+    "lr_secondary_probability_summary",
+    "lr_secondary_reliability_interaction",
+    "lr_secondary_reliability_original",
+    "lr_secondary_spatial_comparison",
+    "lr_selected_fold_scores",
+    "lr_selection_across_outer",
+    "lr_test_additional_examples",
+    "lr_test_bootstrap_ci",
+    "lr_test_bootstrap_scores",
+    "lr_test_ci_display",
+    "lr_test_coverage_analysis",
+    "lr_test_coverage_summary",
+    "lr_test_display_table",
+    "lr_test_negative_patch_analysis",
+    "lr_test_negative_summary",
+    "lr_test_patch_results",
+    "lr_test_probability_references",
+    "lr_test_reliability",
+    "lr_test_score_table",
+    "lr_test_visual_examples",
+    "lr_tuning_results",
+    "lr_tuning_runtime",
+    "lr_tuning_summary",
+    "lr_visual_examples",
+    "split_manifest"
+  ]
+}

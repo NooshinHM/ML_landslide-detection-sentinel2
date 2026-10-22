@@ -1,0 +1,10 @@
+Inner_split,Training_fraction,Training_images,Training_pixels,Recorded_fit_seconds,Status
+1,0.25,405,414720,54.96659569995245,New model fitted
+1,0.5,810,829440,124.42442709999159,New model fitted
+1,1.0,1620,1658880,299.7822862000321,Reused existing 200-tree model
+2,0.25,405,414720,56.63338079996174,New model fitted
+2,0.5,810,829440,127.43796010001097,New model fitted
+2,1.0,1621,1659904,295.9179284001002,Reused existing 200-tree model
+3,0.25,405,414720,52.52394079999067,New model fitted
+3,0.5,810,829440,125.74384120001923,New model fitted
+3,1.0,1621,1659904,291.46100020001177,Reused existing 200-tree model

@@ -1,0 +1,18 @@
+{
+  "model": "HGB",
+  "threshold": 0.13,
+  "outer_split_source": "C:\\Users\\hadid\\Ramen\\ds-ml-project-template\\artifacts\\landslide_handoff_20261018_051428_848638\\project_state.joblib",
+  "final_inner_split_source": "C:\\Users\\hadid\\Ramen\\ds-ml-project-template\\artifacts\\random_forest\\checkpoints\\final_development_selection\\validated_splits.joblib",
+  "outer_scores_path": "C:\\Users\\hadid\\Ramen\\ds-ml-project-template\\artifacts\\hist_gradient_boosting\\checkpoints\\nested_search_ac6da39f5e01056e4253\\pooled_outer\\1a573ca2f0263875d8ab\\scores.npy",
+  "test_scores_path": "C:\\Users\\hadid\\Ramen\\ds-ml-project-template\\artifacts\\hist_gradient_boosting\\checkpoints\\nested_search_ac6da39f5e01056e4253\\final_model\\8dddd78f56454fa62513\\secondary_test\\d73d65ca6143672e1b4e\\scores.npy",
+  "final_model_path": "C:\\Users\\hadid\\Ramen\\ds-ml-project-template\\artifacts\\hist_gradient_boosting\\checkpoints\\nested_search_ac6da39f5e01056e4253\\final_model\\8dddd78f56454fa62513\\model.joblib",
+  "files": [
+    "hgb_candidates.csv",
+    "hgb_channel_importance.csv",
+    "hgb_outer_folds.csv",
+    "hgb_outer_per_image.csv",
+    "hgb_summary.csv",
+    "hgb_test_per_image.csv",
+    "hgb_comparison_bundle.joblib"
+  ]
+}

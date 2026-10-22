@@ -1,0 +1,11 @@
+Check,Passed
+Model signature matches registry and test evaluation,True
+"3,039 unique training images; 760 unique test images",True
+Training and test image IDs are disjoint,True
+Saved test-array order matches locked test IDs,True
+"200 trees, 14 features and locked parameters match",True
+No calibration; threshold 0.17 preserved,True
+Per-image counts reproduce overall test counts,True
+Six fixed image IDs and order are correct,True
+Test bootstrap belongs to this evaluation,True
+Required result files exist,True

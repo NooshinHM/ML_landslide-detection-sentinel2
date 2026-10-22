@@ -1,0 +1,9 @@
+﻿,Check,Status
+0,Development and holdout IDs are disjoint,PASS
+1,Final model training IDs equal development IDs,PASS
+2,Every holdout image evaluated exactly once,PASS
+3,Saved holdout label alignment verified,PASS
+4,Five outer-fold evaluations available,PASS
+5,Every development image has one OOF record,PASS
+6,Holdout threshold matches final locked threshold,PASS
+7,All holdout pixels have saved predictions,PASS
